@@ -56,6 +56,8 @@ namespace ApartmanOtomasyon
             ListeleriTemizle();
             Giderler_Load(null, null);
 
+            MessageBox.Show("Gider Başarıyla Kayıt Edildi.", "B İ L G İ", MessageBoxButtons.OK,
+                MessageBoxIcon.Information);
         }
 
         private void ListeleriTemizle()

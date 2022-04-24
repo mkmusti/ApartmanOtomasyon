@@ -32,6 +32,9 @@ namespace ApartmanOtomasyon
             sqlHelper.ExecuteProcedure("sp_odemeAl", parameterDaire, parameterTutar, parameterdt);
             ListeleriTemizle();
             Gelirler_Load(null, null);
+
+            MessageBox.Show("Gelir Başarıyla Kayıt Edildi.", "B İ L G İ", MessageBoxButtons.OK,
+                MessageBoxIcon.Information);
         }
 
         private void ListeleriTemizle()

@@ -16,5 +16,16 @@ namespace ApartmanOtomasyon
         {
             InitializeComponent();
         }
+
+        private void btnGelirler_Click(object sender, EventArgs e)
+        {
+            new Gelirler().Show(); 
+        }
+
+        private void btnGiderler_Click(object sender, EventArgs e)
+        {
+            Giderler giderler = new Giderler();
+            giderler.Show();
+        }
     }
 }
